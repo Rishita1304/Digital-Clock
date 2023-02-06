@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("back.jpg");
+    color: azure;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    /* margin: 20px; */
+    text-align: center;
+    color: rgb(31, 2, 40);
+    padding: 10px;
+    background-color: rgba(220, 184, 254, 0.537);
+}
+
+.clock {
+    display: flex;
+    margin: 30px 0 60px 0;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 110px;
+    height: 90px;
+    background: slategray;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(157, 66, 243);
+}
+
+.clock #ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.daydate div {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 60px;
+    text-align: center;
+    color: rgb(31, 2, 40);
+    /* font-weight: 500; */
+    padding: 10px;
+    background-color: rgba(220, 184, 254, 0.484);
+}
+
+.daydate .texxt {
+    font-weight: bolder;
+}
